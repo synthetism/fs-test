@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "MyApp",
+    "version": "2.1.0",
+    "environment": "production"
+  },
+  "database": {
+    "host": "prod-db.mycompany.com",
+    "port": 5432,
+    "database": "myapp_prod",
+    "ssl": true
+  },
+  "features": {
+    "enableNewDashboard": true,
+    "enableBetaFeatures": false,
+    "maxUsers": 10000
+  },
+  "integrations": {
+    "stripe": {
+      "publishableKey": "pk_live_...",
+      "webhookEndpoint": "https://api.mycompany.com/webhooks/stripe"
+    },
+    "slack": {
+      "botToken": "xoxb-...",
+      "channel": "#alerts"
+    }
+  }
+}
