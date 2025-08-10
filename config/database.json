@@ -1,0 +1,5 @@
+{
+  "connectionString": "postgresql://user:pass@prod-db.mycompany.com:5432/myapp_prod",
+  "poolSize": 20,
+  "timeout": 30000
+}
