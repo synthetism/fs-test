@@ -1,0 +1,19 @@
+{
+  "userId": "user_12345",
+  "theme": "dark",
+  "language": "en",
+  "notifications": {
+    "email": true,
+    "push": false,
+    "sms": false
+  },
+  "dashboard": {
+    "layout": "grid",
+    "widgets": [
+      "analytics",
+      "recent-activity",
+      "notifications"
+    ]
+  },
+  "lastUpdated": "2025-08-10T05:25:33.699Z"
+}
