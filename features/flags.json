@@ -1,0 +1,22 @@
+{
+  "flags": {
+    "newUserOnboarding": {
+      "enabled": true,
+      "rollout": 0.1
+    },
+    "advancedAnalytics": {
+      "enabled": false,
+      "rollout": 0
+    },
+    "darkMode": {
+      "enabled": true,
+      "rollout": 1
+    },
+    "experimentalUI": {
+      "enabled": true,
+      "rollout": 0.05
+    }
+  },
+  "lastUpdated": "2025-08-10T05:25:17.919Z",
+  "updatedBy": "config-manager@mycompany.com"
+}
