@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "MyApp",
+    "version": "2.1.0",
+    "environment": "development"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "myapp_dev",
+    "ssl": false
+  },
+  "features": {
+    "enableNewDashboard": true,
+    "enableBetaFeatures": true,
+    "maxUsers": 100
+  },
+  "integrations": {
+    "stripe": {
+      "publishableKey": "pk_live_...",
+      "webhookEndpoint": "https://api.mycompany.com/webhooks/stripe"
+    },
+    "slack": {
+      "botToken": "xoxb-...",
+      "channel": "#alerts"
+    }
+  }
+}
